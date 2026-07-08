@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/header"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@+id/bt_addcart">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:text="Share Jeevandhara app with your friends"
+                                android:textSize="18dp"
+                                android:textColor="@color/blue"
+                                android:layout_margin="5dp"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/custom_font"
+                                android:textAlignment="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:padding="10dp"
+                                android:src="@drawable/refer"
+                                android:scaleType="fitCenter"/>
+
+                            <TextView
+                                android:text="How does it work?"
+                                android:textSize="18dp"
+                                android:textColor="@color/blue"
+                                android:layout_margin="5dp"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/custom_font"
+                                android:textAlignment="textStart"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:text="  1. send your referral code to a friend."
+                                android:textSize="15dp"
+                                android:textColor="@color/black"
+                                android:layout_margin="5dp"
+                                android:fontFamily="@font/custom_font"
+                                android:textAlignment="textStart"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:text="  2. Your friend has to enter his/her referral code at the time of signup or install the app from that referral link."
+                                android:textSize="15dp"
+                                android:textColor="@color/black"
+                                android:layout_margin="5dp"
+                                android:fontFamily="@font/custom_font"
+                                android:textAlignment="textStart"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:text="  3. You and your friend will get some points after the signup is completed.."
+                                android:textSize="15dp"
+                                android:textColor="@color/black"
+                                android:layout_margin="5dp"
+                                android:fontFamily="@font/custom_font"
+                                android:textAlignment="textStart"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+
+                            <TextView
+                                android:layout_marginTop="25dp"
+                                android:text=" Click to copy"
+                                android:textSize="15dp"
+                                android:textColor="@color/red"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/custom_font"
+                                android:textAlignment="textStart"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:textSize="15dp"
+                                    android:textColor="@color/black"
+                                    android:layout_marginLeft="5dp"
+                                    android:background="@drawable/box_round"
+                                    android:fontFamily="@font/custom_font"
+                                    android:textAlignment="center"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:id="@+id/code"
+                                    android:layout_width="120dp"
+                                    android:layout_height="40dp"/>
+
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="1"
+                                    android:id="@+id/btshare"
+                                    android:text="Share App"
+                                    android:textStyle="bold"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/white"
+                                    android:fontFamily="@font/custom_font"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/button"
+                                    android:layout_marginBottom="0dp"
+                                    />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.core.widget.NestedScrollView>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

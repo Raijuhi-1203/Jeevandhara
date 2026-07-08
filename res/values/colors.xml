@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="trwhite">#70FFFFFF</color>
+    <color name="grey">#C8C8C8</color>
+    <color name="lgtgrey">#63C8C8C8</color>
+    <color name="blue">#334075</color>
+    <color name="pink">#dc3559</color>
+    <color name="trpink">#7CDC3559</color>
+    <color name="orange">#ee6148</color>
+    <color name="mustred">#fea15f</color>
+    <color name="red">#F44336</color>
+    <color name="green">#4CAF50</color>
+</resources>
